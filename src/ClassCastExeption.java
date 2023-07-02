@@ -2,11 +2,11 @@ public class ClassCastExeption {
     public static void main(String[] args) {
         dz();
     }
-    int a;
+    String a;
     private static void dz(){
         try {
-            ClassCastExeption error = (ClassCastExeption) a;
-
+            Animal dog = new Dog();
+            Cat cat= (Cat) dog;
         } catch (Exception e) {
             throw new RuntimeException(e);
         }

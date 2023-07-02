@@ -1,6 +1,6 @@
 public class Dog extends Animal{
-    public Dog(int paw, String colorEyes) {
-        super(paw, colorEyes);
+    @Override
+    public void dosomething() {
+        System.out.println("gav");
     }
-    Dog corgi = new Dog(4,"Brown");
 }

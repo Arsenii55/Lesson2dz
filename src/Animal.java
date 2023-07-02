@@ -1,9 +1,5 @@
 public class Animal {
-    int paw;
-    String ColorEyes;
+    public void dosomething(){
 
-    public Animal(int paw, String colorEyes) {
-        this.paw = paw;
-        ColorEyes = colorEyes;
     }
 }
